@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: de454e76d070d934c9f57cc307715347
+timeCreated: 1522072889
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Hip
+    100004: joint1
+    100006: L_clare
+    100008: L_Finger_1
+    100010: L_Finger_10
+    100012: L_Finger_11
+    100014: L_Finger_12
+    100016: L_Finger_13
+    100018: L_Finger_14
+    100020: L_Finger_2
+    100022: L_Finger_3
+    100024: L_Finger_4
+    100026: L_Finger_5
+    100028: L_Finger_5 1
+    100030: L_Finger_6
+    100032: L_Finger_7
+    100034: L_Finger_8
+    100036: L_Finger_9
+    100038: L_Hand_1
+    100040: L_Hand_2
+    100042: L_Hand_3
+    100044: L_Leg_1
+    100046: L_Leg_2
+    100048: L_Leg_3
+    100050: L_Leg_4
+    100052: L_Leg_5
+    100054: parya4maya:Mesh
+    100056: R_clare
+    100058: R_Finger_1
+    100060: R_Finger_10
+    100062: R_Finger_11
+    100064: R_Finger_12
+    100066: R_Finger_13
+    100068: R_Finger_14
+    100070: R_Finger_2
+    100072: R_Finger_3
+    100074: R_Finger_4
+    100076: R_Finger_5
+    100078: R_Finger_5 1
+    100080: R_Finger_6
+    100082: R_Finger_7
+    100084: R_Finger_8
+    100086: R_Finger_9
+    100088: R_Hand_1
+    100090: R_Hand_2
+    100092: R_Hand_3
+    100094: R_Leg_1
+    100096: R_Leg_2
+    100098: R_Leg_3
+    100100: R_Leg_4
+    100102: R_Leg_5
+    100104: Spine_1
+    100106: Spine_2
+    100108: Spine_3
+    100110: Spine_4
+    400000: //RootNode
+    400002: Hip
+    400004: joint1
+    400006: L_clare
+    400008: L_Finger_1
+    400010: L_Finger_10
+    400012: L_Finger_11
+    400014: L_Finger_12
+    400016: L_Finger_13
+    400018: L_Finger_14
+    400020: L_Finger_2
+    400022: L_Finger_3
+    400024: L_Finger_4
+    400026: L_Finger_5
+    400028: L_Finger_5 1
+    400030: L_Finger_6
+    400032: L_Finger_7
+    400034: L_Finger_8
+    400036: L_Finger_9
+    400038: L_Hand_1
+    400040: L_Hand_2
+    400042: L_Hand_3
+    400044: L_Leg_1
+    400046: L_Leg_2
+    400048: L_Leg_3
+    400050: L_Leg_4
+    400052: L_Leg_5
+    400054: parya4maya:Mesh
+    400056: R_clare
+    400058: R_Finger_1
+    400060: R_Finger_10
+    400062: R_Finger_11
+    400064: R_Finger_12
+    400066: R_Finger_13
+    400068: R_Finger_14
+    400070: R_Finger_2
+    400072: R_Finger_3
+    400074: R_Finger_4
+    400076: R_Finger_5
+    400078: R_Finger_5 1
+    400080: R_Finger_6
+    400082: R_Finger_7
+    400084: R_Finger_8
+    400086: R_Finger_9
+    400088: R_Hand_1
+    400090: R_Hand_2
+    400092: R_Hand_3
+    400094: R_Leg_1
+    400096: R_Leg_2
+    400098: R_Leg_3
+    400100: R_Leg_4
+    400102: R_Leg_5
+    400104: Spine_1
+    400106: Spine_2
+    400108: Spine_3
+    400110: Spine_4
+    4300000: parya4maya:Mesh
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: parya4maya:Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

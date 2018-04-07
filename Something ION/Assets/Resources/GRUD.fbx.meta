@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: b367a6d96000a5542bab884a62635ae1
+timeCreated: 1522335005
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ganteli:Mesh
+    100002: //RootNode
+    100004: Hip
+    100006: joint1
+    100008: KUSETKA:Mesh
+    100010: L_clare
+    100012: L_Finger_1
+    100014: L_Finger_10
+    100016: L_Finger_11
+    100018: L_Finger_12
+    100020: L_Finger_13
+    100022: L_Finger_14
+    100024: L_Finger_2
+    100026: L_Finger_3
+    100028: L_Finger_4
+    100030: L_Finger_5
+    100032: L_Finger_5 1
+    100034: L_Finger_6
+    100036: L_Finger_7
+    100038: L_Finger_8
+    100040: L_Finger_9
+    100042: L_Hand_1
+    100044: L_Hand_2
+    100046: L_Hand_3
+    100048: L_Leg_1
+    100050: L_Leg_2
+    100052: L_Leg_3
+    100054: L_Leg_4
+    100056: L_Leg_5
+    100058: Mesh1
+    100060: parya4maya:Mesh
+    100062: R_clare
+    100064: R_Finger_1
+    100066: R_Finger_10
+    100068: R_Finger_11
+    100070: R_Finger_12
+    100072: R_Finger_13
+    100074: R_Finger_14
+    100076: R_Finger_2
+    100078: R_Finger_3
+    100080: R_Finger_4
+    100082: R_Finger_5
+    100084: R_Finger_5 1
+    100086: R_Finger_6
+    100088: R_Finger_7
+    100090: R_Finger_8
+    100092: R_Finger_9
+    100094: R_Hand_1
+    100096: R_Hand_2
+    100098: R_Hand_3
+    100100: R_Leg_1
+    100102: R_Leg_2
+    100104: R_Leg_3
+    100106: R_Leg_4
+    100108: R_Leg_5
+    100110: Spine_1
+    100112: Spine_2
+    100114: Spine_3
+    100116: Spine_4
+    400000: ganteli:Mesh
+    400002: //RootNode
+    400004: Hip
+    400006: joint1
+    400008: KUSETKA:Mesh
+    400010: L_clare
+    400012: L_Finger_1
+    400014: L_Finger_10
+    400016: L_Finger_11
+    400018: L_Finger_12
+    400020: L_Finger_13
+    400022: L_Finger_14
+    400024: L_Finger_2
+    400026: L_Finger_3
+    400028: L_Finger_4
+    400030: L_Finger_5
+    400032: L_Finger_5 1
+    400034: L_Finger_6
+    400036: L_Finger_7
+    400038: L_Finger_8
+    400040: L_Finger_9
+    400042: L_Hand_1
+    400044: L_Hand_2
+    400046: L_Hand_3
+    400048: L_Leg_1
+    400050: L_Leg_2
+    400052: L_Leg_3
+    400054: L_Leg_4
+    400056: L_Leg_5
+    400058: Mesh1
+    400060: parya4maya:Mesh
+    400062: R_clare
+    400064: R_Finger_1
+    400066: R_Finger_10
+    400068: R_Finger_11
+    400070: R_Finger_12
+    400072: R_Finger_13
+    400074: R_Finger_14
+    400076: R_Finger_2
+    400078: R_Finger_3
+    400080: R_Finger_4
+    400082: R_Finger_5
+    400084: R_Finger_5 1
+    400086: R_Finger_6
+    400088: R_Finger_7
+    400090: R_Finger_8
+    400092: R_Finger_9
+    400094: R_Hand_1
+    400096: R_Hand_2
+    400098: R_Hand_3
+    400100: R_Leg_1
+    400102: R_Leg_2
+    400104: R_Leg_3
+    400106: R_Leg_4
+    400108: R_Leg_5
+    400110: Spine_1
+    400112: Spine_2
+    400114: Spine_3
+    400116: Spine_4
+    2100000: ganteli_Material_002
+    2100002: parya4maya_Default1
+    2100004: parya4maya_biceps1
+    2100006: parya4maya_triceps1
+    2100008: parya4maya_kvadriceps1
+    2100010: parya4maya_iknojnie1
+    2100012: parya4maya_shirochaishie1
+    2100014: parya4maya_trapecevidnaya1
+    2100016: parya4maya_plechi1
+    2100018: parya4maya_grud1
+    2100020: parya4maya_sheya1
+    2100022: parya4maya_BICEPSNOG1
+    2100024: parya4maya_pres1
+    2100026: parya4maya_predpleche1
+    2100028: parya4maya_Yagodki1
+    2100030: parya4maya_Material_002
+    2100032: KUSETKA_None1
+    2300000: ganteli:Mesh
+    2300002: KUSETKA:Mesh
+    2300004: Mesh1
+    3300000: ganteli:Mesh
+    3300002: KUSETKA:Mesh
+    3300004: Mesh1
+    4300000: ganteli:Mesh
+    4300002: Mesh1
+    4300004: parya4maya:Mesh
+    4300006: KUSETKA:Mesh
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: parya4maya:Mesh
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

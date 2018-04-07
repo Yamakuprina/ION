@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: aac40f63a7c955a479a2d58012b28321
+timeCreated: 1522935766
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Engine
+  fontNames:
+  - Engine
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9cd7abb6c97a50c46a12cad4c678c344, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
