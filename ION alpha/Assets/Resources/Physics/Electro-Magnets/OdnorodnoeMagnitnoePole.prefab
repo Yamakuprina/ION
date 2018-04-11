@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 198950072306562452}
   - component: {fileID: 199458794904704890}
   m_Layer: 0
-  m_Name: OMP
+  m_Name: OdnorodnoeMagnitnoePole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

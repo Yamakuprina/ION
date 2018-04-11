@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 76b8625aa871fe345a1b3b43f5f7b239
+timeCreated: 1523441021
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Hip
+    100002: joint1
+    100004: L_clare
+    100006: L_Finger_1
+    100008: L_Finger_10
+    100010: L_Finger_11
+    100012: L_Finger_12
+    100014: L_Finger_13
+    100016: L_Finger_14
+    100018: L_Finger_2
+    100020: L_Finger_3
+    100022: L_Finger_4
+    100024: L_Finger_5
+    100026: L_Finger_5 1
+    100028: L_Finger_6
+    100030: L_Finger_7
+    100032: L_Finger_8
+    100034: L_Finger_9
+    100036: L_Hand_1
+    100038: L_Hand_2
+    100040: L_Hand_3
+    100042: L_Leg_1
+    100044: L_Leg_2
+    100046: L_Leg_3
+    100048: L_Leg_4
+    100050: L_Leg_5
+    100052: parya4maya:Mesh
+    100054: //RootNode
+    100056: R_clare
+    100058: R_Finger_1
+    100060: R_Finger_10
+    100062: R_Finger_11
+    100064: R_Finger_12
+    100066: R_Finger_13
+    100068: R_Finger_14
+    100070: R_Finger_2
+    100072: R_Finger_3
+    100074: R_Finger_4
+    100076: R_Finger_5
+    100078: R_Finger_5 1
+    100080: R_Finger_6
+    100082: R_Finger_7
+    100084: R_Finger_8
+    100086: R_Finger_9
+    100088: R_Hand_1
+    100090: R_Hand_2
+    100092: R_Hand_3
+    100094: R_Leg_1
+    100096: R_Leg_2
+    100098: R_Leg_3
+    100100: R_Leg_4
+    100102: R_Leg_5
+    100104: skameyka:Mesh
+    100106: Spine_1
+    100108: Spine_2
+    100110: Spine_3
+    100112: Spine_4
+    400000: Hip
+    400002: joint1
+    400004: L_clare
+    400006: L_Finger_1
+    400008: L_Finger_10
+    400010: L_Finger_11
+    400012: L_Finger_12
+    400014: L_Finger_13
+    400016: L_Finger_14
+    400018: L_Finger_2
+    400020: L_Finger_3
+    400022: L_Finger_4
+    400024: L_Finger_5
+    400026: L_Finger_5 1
+    400028: L_Finger_6
+    400030: L_Finger_7
+    400032: L_Finger_8
+    400034: L_Finger_9
+    400036: L_Hand_1
+    400038: L_Hand_2
+    400040: L_Hand_3
+    400042: L_Leg_1
+    400044: L_Leg_2
+    400046: L_Leg_3
+    400048: L_Leg_4
+    400050: L_Leg_5
+    400052: parya4maya:Mesh
+    400054: //RootNode
+    400056: R_clare
+    400058: R_Finger_1
+    400060: R_Finger_10
+    400062: R_Finger_11
+    400064: R_Finger_12
+    400066: R_Finger_13
+    400068: R_Finger_14
+    400070: R_Finger_2
+    400072: R_Finger_3
+    400074: R_Finger_4
+    400076: R_Finger_5
+    400078: R_Finger_5 1
+    400080: R_Finger_6
+    400082: R_Finger_7
+    400084: R_Finger_8
+    400086: R_Finger_9
+    400088: R_Hand_1
+    400090: R_Hand_2
+    400092: R_Hand_3
+    400094: R_Leg_1
+    400096: R_Leg_2
+    400098: R_Leg_3
+    400100: R_Leg_4
+    400102: R_Leg_5
+    400104: skameyka:Mesh
+    400106: Spine_1
+    400108: Spine_2
+    400110: Spine_3
+    400112: Spine_4
+    2100000: parya4maya_Default1
+    2100002: parya4maya_biceps1
+    2100004: parya4maya_triceps1
+    2100006: parya4maya_kvadriceps1
+    2100008: parya4maya_iknojnie1
+    2100010: parya4maya_shirochaishie1
+    2100012: parya4maya_trapecevidnaya1
+    2100014: parya4maya_plechi1
+    2100016: parya4maya_grud1
+    2100018: parya4maya_sheya1
+    2100020: parya4maya_BICEPSNOG1
+    2100022: parya4maya_pres1
+    2100024: parya4maya_predpleche1
+    2100026: parya4maya_Yagodki1
+    2100028: parya4maya_Material_002
+    2100030: skameyka_None1
+    2300000: skameyka:Mesh
+    3300000: skameyka:Mesh
+    4300000: parya4maya:Mesh
+    4300002: skameyka:Mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: parya4maya:Mesh
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

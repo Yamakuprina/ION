@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 198512229766262354}
   - component: {fileID: 199272838319641526}
   m_Layer: 0
-  m_Name: ion
+  m_Name: Elektron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
