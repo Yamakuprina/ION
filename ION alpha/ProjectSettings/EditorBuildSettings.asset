@@ -8,18 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/111.unity
     guid: 2170d43c71ac1004784f340b6a727d94
-  - enabled: 0
-    path: Assets/3-UserDefinedTargets.unity
-    guid: 89ed636faaaf34959983482a021ac4e6
   - enabled: 1
-    path: Assets/Geometry.unity
+    path: Assets/Lessons/Geomotry/Geometry.unity
     guid: e7ea36d0ed509d94ba5d316ad598f910
   - enabled: 0
-    path: Assets/FizraVideo.unity
+    path: Assets/Lessons/Fizra/FizraVideo.unity
     guid: efb4b9453b33f0d4895e814cc34582cf
   - enabled: 1
-    path: Assets/Kavendish_Phys.unity
+    path: Assets/Lessons/Phys/Kavendish_Phys.unity
     guid: 10e3f585157e6c04ab765c32d1249cf3
   - enabled: 0
-    path: Assets/WellThatAlmostWorksTarget.unity
+    path: Assets/Lessons/Astronomy/WellThatAlmostWorksTarget.unity
     guid: 8f900e2f4d8ed6a41a3d3af7b86798af
+  - enabled: 1
+    path: Assets/Lessons/Biology/Kletka/Kletka.unity
+    guid: 5e85144da1f39394caedee9b3385fb54

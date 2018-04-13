@@ -1,8 +1,9 @@
 Android
 SceneListBegin?
 Assets/111.unity
-Assets/Geometry.unity
-Assets/Kavendish_Phys.unity
+Assets/Lessons/Geomotry/Geometry.unity
+Assets/Lessons/Phys/Kavendish_Phys.unity
+Assets/Lessons/Biology/Kletka/Kletka.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SamplesNavigationHandler
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -210,6 +211,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScanLine
 e1f1285d86f3a1745afc7444b310fb42 Assembly-CSharp.dll:Lean.Touch.LeanPitchYaw
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Lean.Touch.LeanOpenUrl
+e3ccf623b6750d087c06ebe71b3b310b Assembly-CSharp.dll:.PredmetManager
 5783b5cb6e6d5bcc7df8ef9e6d5aada9 Assembly-CSharp.dll:Lean.Touch.LeanRotate
 af81a921b7f8543a1aaa2a5cb365859a Assembly-CSharp.dll:.DrillController
 6d3d167dfc900f1bc58353f0a12020e5 Assembly-CSharp.dll:.CloudRecoEventHandler
@@ -228,7 +230,7 @@ e7f268767823a8cd19911699aa31f1ea Assembly-CSharp.dll:Lean.Touch.LeanMultiTapInfo
 91b36326f294b619937373da443e69b6 Assembly-CSharp.dll:Lean.Touch.LeanTouch
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OxygenTank
 724a51b61b7ebd15d4e794fd2c785db0 Assembly-CSharp.dll:.VirtualButtonEventHandler
-d4170dfe1039002801e9ac04d74e951b Assembly-CSharp.dll:.CameraCtrl
+297fe15c5bbf9a56a977cc9c23ba00f7 Assembly-CSharp.dll:.CameraCtrl
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SamplesLoadingScreen
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -362,4 +364,3 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
-4e3e4f717d15f28ed7ae5425d010e9bb Assembly-CSharp.dll:.PredmetManager

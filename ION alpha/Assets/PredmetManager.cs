@@ -7,6 +7,7 @@ public class PredmetManager : MonoBehaviour {
 	public Animator PhysAnim;
 	public Animator GeomAnim;
 	public Animator AstroAnim;
+	public Animator BioAnim;
 	public GameObject GeomPlane;
 	public GameObject GeomImage;
 	public GameObject PhysPlane;
@@ -26,6 +27,10 @@ public class PredmetManager : MonoBehaviour {
 		yield return new WaitForSeconds (1.5f);
 		//SceneManager.LoadScene (3);
 	}
+	IEnumerator WaittBiology(){
+		yield return new WaitForSeconds (1.5f);
+		SceneManager.LoadScene (3);
+	}
 
 	public void GeomPressed(){
 		GeomAnim.SetBool ("Start", true);
@@ -38,13 +43,22 @@ public class PredmetManager : MonoBehaviour {
 		GeomPlane.SetActive (false);
 		PhysPlane.SetActive (true);
 		PhysImage.SetActive (true);
+		GeomAnim.SetBool ("Stop", true);
 		PhysAnim.SetBool ("Start", true);
 		StartCoroutine (WaittPhys ());
 
 	}
 	public void AstroPressed(){
+		GeomAnim.SetBool ("Stop", true);
 		AstroAnim.SetBool ("Start", true);
 		StartCoroutine (WaittAstro ());
 
 	}
+	public void BiologyPressed(){
+		GeomAnim.SetBool ("Stop", true);
+		BioAnim.SetBool ("Start", true);
+		StartCoroutine (WaittBiology ());
+
+	}
+
 }
