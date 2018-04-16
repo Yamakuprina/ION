@@ -187,6 +187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 14530078}
   - component: {fileID: 14530079}
+  - component: {fileID: 14530080}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Need
@@ -219,10 +220,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IgnoreGuiFingers: 0
-  RequiredFingerCount: 2
+  RequiredFingerCount: 1
   RequiredSelectable: {fileID: 0}
   Camera: {fileID: 422657780}
   RotateAxis: {x: 1, y: 0, z: 0}
+  Relative: 0
+--- !u!114 &14530080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 14530077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52d72cc6210cb7144a24acb7402222a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IgnoreGuiFingers: 0
+  RequiredFingerCount: 1
+  RequiredSelectable: {fileID: 0}
+  Camera: {fileID: 422657780}
+  RotateAxis: {x: 0, y: 0, z: 1}
   Relative: 0
 --- !u!1 &29404392
 GameObject:
@@ -235,7 +253,7 @@ GameObject:
   - component: {fileID: 29404395}
   - component: {fileID: 29404394}
   m_Layer: 0
-  m_Name: Parag1
+  m_Name: Parag22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -747,7 +765,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UI: {fileID: 394376906}
-  StartLesson: {fileID: 1891512219}
   UILESSON: {fileID: 115247575}
   PlayButton: {fileID: 1756645038}
   PauseButton: {fileID: 684369545}
@@ -758,6 +775,9 @@ MonoBehaviour:
   Fizzzra: {fileID: 0}
   Kavend: {fileID: 0}
   Light: {fileID: 10}
+  ButtonsCounter: 0
+  NeedStart: 0
+  PausedParag: {fileID: 0}
 --- !u!4 &394376908
 Transform:
   m_ObjectHideFlags: 0
@@ -3496,7 +3516,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 47.3684, y: -1}
+  m_AnchoredPosition: {x: 63.9, y: -1}
   m_SizeDelta: {x: 79.559, y: 77.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1764606892
@@ -3539,7 +3559,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 394376907}
-        m_MethodName: ParagraphAct1
+        m_MethodName: Next
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3629,7 +3649,7 @@ GameObject:
   - component: {fileID: 1772450125}
   - component: {fileID: 1772450124}
   m_Layer: 0
-  m_Name: Parag2
+  m_Name: Parag11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3872,7 +3892,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -49.2, y: -0.49999}
+  m_AnchoredPosition: {x: -62.9, y: -0.49999}
   m_SizeDelta: {x: 78.7, y: 78.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1874870485
@@ -3915,7 +3935,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 394376907}
-        m_MethodName: ParagraphAct2
+        m_MethodName: Prev
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4315,7 +4335,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 394376907}
-        m_MethodName: UIOfff
+        m_MethodName: STARTFUCKINGLESSON
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

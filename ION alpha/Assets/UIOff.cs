@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class UIOff : MonoBehaviour {
 	public GameObject UI;
-	public GameObject StartLesson;
 	public GameObject UILESSON;
 	public GameObject PlayButton;
 	public GameObject PauseButton;
@@ -23,42 +22,57 @@ public class UIOff : MonoBehaviour {
 	//public Animation Anim;
 	//public GameObject LightSource;
 	public GameObject Light;
-	//public GameObject Next;
-	//public GameObject Prev;
-	// Use this for initialization
+	public float ButtonsCounter;
+	public float NeedStart;
+	public GameObject PausedParag;
+
 	void Start (){
 	//	Translate = Model.GetComponent<LeanTranslate> ();
 	//	Rotate = Model.GetComponent<LeanRotate> ();
 	//	Scale = Model.GetComponent<LeanScale>();
-		StartLesson.SetActive (false);
+		UI.SetActive (true);
 		UILESSON.SetActive (false);
 		PauseButton.SetActive (false);
+		ButtonsCounter = 1f;
+		NeedStart = 0f;
+		PausedParag = Paragraph1;
 		//Light = LightSource.GetComponent<Light> ();
 		//Next = null;
 		//Prev = null;
 	}
-	public void UIOfff (){
-		UI.SetActive (false);
-		StartLesson.SetActive (true);
-	}
+
 	public void STARTFUCKINGLESSON(){
+		UI.SetActive (false);
 	//	Translate.enabled = false;
 	//	Rotate.enabled = false;
 	//	Scale.enabled = false;
 		UILESSON.SetActive (true);
-		StartLesson.SetActive (false);
+
 	}
 
 	public void PlaytoPause (){
+		if (NeedStart == 0) {
+			NeedStart++;
+		}
 		Light.SetActive (true);
 		Plane.SetActive (true);
-		Paragraph2.SetActive (false);
-		Paragraph1.SetActive (true);
+		PausedParag.SetActive (true);
 		PlayButton.SetActive (false);
 		PauseButton.SetActive (true);
 	}
 	public void PausetoPlay (){
+		if (NeedStart == 1) {
+			NeedStart--;
+		}
+		if (Paragraph1.activeInHierarchy == true) {
+			PausedParag = Paragraph1;
+		}
+		if (Paragraph2.activeInHierarchy == true) {
+			PausedParag = Paragraph2;
+		}
+		Paragraph2.SetActive (false);
 		Paragraph1.SetActive (false);
+		Plane.SetActive (false);
 		PauseButton.SetActive (false);
 		PlayButton.SetActive (true);
 	}
@@ -75,17 +89,35 @@ public class UIOff : MonoBehaviour {
 		SceneManager.LoadScene (0);
 
 	}
-	public void ParagraphAct1(){
-		Light.SetActive (true);
-		Plane.SetActive (true);
-		Paragraph2.SetActive (false);
-		Paragraph1.SetActive (true);
+	public void Next (){ 
+		if (NeedStart>0f){
+		ButtonsCounter++;
+		}
+		if (ButtonsCounter == 3) {
+			ButtonsCounter--;
+		}
+		if ((ButtonsCounter == 2)&&(NeedStart>0)) {
+			
+			Light.SetActive (true);
+			Plane.SetActive (true);
+			Paragraph1.SetActive (false);
+			Paragraph2.SetActive (true);
+		}
+	
 	}
-	public void ParagraphAct2(){
-		Light.SetActive (true);
-		Plane.SetActive (true);
-		Paragraph1.SetActive (false);
-		Paragraph2.SetActive (true);
+	public void Prev(){
+		if (NeedStart > 0f) {
+			ButtonsCounter--;
+		}
+		if (ButtonsCounter == 0) {
+			ButtonsCounter++;
+		}
+		if ((ButtonsCounter == 1)&&(NeedStart>0)) {
+			Light.SetActive (true);
+			Plane.SetActive (true);
+			Paragraph2.SetActive (false);
+			Paragraph1.SetActive (true);
+		}
 	}
 	/*public void Playyy (){
 		counter = 0f;
@@ -111,10 +143,7 @@ public void  Kavendish(){
 	Kavend.SetBool ("StartAn", true);
 	Kavend.SetBool ("StopAn", true);
 }
-public void  KavendishStop(){
-	Kavend.SetBool ("StartAn", false);
-	Kavend.SetBool ("StopAn", true);
-}
+
    public void FizraStart(){
 	Fizzzra.SetBool ("Stop", false);
 		Fizzzra.SetBool ("Start", true);
