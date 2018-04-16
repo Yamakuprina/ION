@@ -323,7 +323,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
-11c40ddfa3c7cf73a7e1ec1f8a56ecae Assembly-CSharp.dll:.UIOff
+7e4334aaee3417c6f812a1aa6f1bb205 Assembly-CSharp.dll:.UIOff
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FrameRateSettings
 1599adf36a90c6dd91987c85a00ee885 Assembly-CSharp.dll:Lean.Touch.LeanFingerHeld
 05012a5c4e5496c7da7c6bf88a0eb92a Assembly-CSharp.dll:Lean.Touch.LeanPitchYawSmooth
@@ -364,3 +364,5 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
+bad9c5dc2850770372fe0cfc596b9e6b Assembly-CSharp.dll:.UIOff_B_Kletka
+b67a2fbff7b780651ff66b0ce709a90e Assembly-CSharp.dll:.CamFollowDesk
