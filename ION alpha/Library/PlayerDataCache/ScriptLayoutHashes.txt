@@ -275,7 +275,7 @@ c5dd14ab405cc404da9929ce88d6b7f4 Assembly-CSharp.dll:.ModelSwap
 048a71e715f6f97561c15fe2ea6530d2 Assembly-CSharp.dll:.SamplesMainMenu
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 10f494e1ff72e862df6c993f5924c261 Assembly-CSharp.dll:.PanelShowHide
-20758883d82420d9af10409b7d44ed0a Assembly-CSharp.dll:.UIOff_B_Kletka
+84bc7495a2efff3d64b9fce5549ec148 Assembly-CSharp.dll:.UIOff_B_Kletka
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Habitat
 685435272821bcb4d44916f2887124fa Assembly-CSharp.dll:.VideoController
 c23567de7068d554c905c20656a91b08 Assembly-CSharp.dll:Lean.Touch.LeanCameraMoveSmooth

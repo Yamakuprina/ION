@@ -17,13 +17,18 @@ public class UIOff_B_Kletka : MonoBehaviour {
 	public GameObject Paragraph4; 
 	public GameObject Paragraph5; 
 	public GameObject Paragraph6; 
+	public GameObject Paragraph7;
+	public GameObject Paragraph8;
+	public GameObject Paragraph9;
 
 	public GameObject Plane; 
 
 	public GameObject MembranaLighted; 
 	public GameObject MitohondriyaLighted; 
 	public GameObject VakuolLighted; 
-	public GameObject RibosomyLighted; 
+	public GameObject RibosomyLighted;
+	public GameObject GoldzhyLighted;
+	public GameObject YadroLighted;
 
 
 	public GameObject Light; 
@@ -70,8 +75,13 @@ public class UIOff_B_Kletka : MonoBehaviour {
 		} 
 		if (ButtonsCounter == 6) { 
 			RibosomyLighted.SetActive (true); 
-		} 
-
+		}
+		if (ButtonsCounter == 7) { 
+			GoldzhyLighted.SetActive (true); 
+		}
+		if (ButtonsCounter == 8) { 
+			YadroLighted.SetActive (true); 
+		}
 
 
 		Light.SetActive (true); 
@@ -108,14 +118,28 @@ public class UIOff_B_Kletka : MonoBehaviour {
 		if (Paragraph6.activeInHierarchy == true) { 
 			PausedParag = Paragraph6; 
 		} 
+		if (Paragraph7.activeInHierarchy == true) { 
+			PausedParag = Paragraph7; 
+		}
+		if (Paragraph8.activeInHierarchy == true) { 
+			PausedParag = Paragraph8; 
+		}
+		if (Paragraph9.activeInHierarchy == true) { 
+			PausedParag = Paragraph9; 
+		}
 
 
+		YadroLighted.SetActive (false);
+		GoldzhyLighted.SetActive (false);
 		MitohondriyaLighted.SetActive (false); 
 		MembranaLighted.SetActive (false); 
 		VakuolLighted.SetActive (false); 
 		RibosomyLighted.SetActive (false); 
 
 
+		Paragraph9.SetActive (false);
+		Paragraph8.SetActive (false);
+		Paragraph7.SetActive (false);
 		Paragraph6.SetActive (false); 
 		Paragraph5.SetActive (false); 
 		Paragraph4.SetActive (false); 
@@ -161,7 +185,7 @@ public class UIOff_B_Kletka : MonoBehaviour {
 		} 
 
 
-		if (ButtonsCounter == 7) { 
+		if (ButtonsCounter == 10) { 
 			ButtonsCounter--; 
 		}//Verhnya granica ButtonsCounter'a 
 
@@ -172,7 +196,10 @@ public class UIOff_B_Kletka : MonoBehaviour {
 		if ((ButtonsCounter == 2)&&(NeedStart>0)) { 
 
 Light.SetActive (true); 
-Plane.SetActive (true); 
+Plane.SetActive (true);
+			Paragraph8.SetActive (false);
+			Paragraph9.SetActive (false);
+Paragraph7.SetActive (false); 
 Paragraph6.SetActive (false); 
 Paragraph3.SetActive (false); 
 Paragraph1.SetActive (false); 
@@ -181,6 +208,8 @@ Paragraph5.SetActive (false);
 Paragraph2.SetActive (true); 
 MitohondriyaLighted.SetActive(false); 
 VakuolLighted.SetActive (false); 
+			GoldzhyLighted.SetActive (false);
+			YadroLighted.SetActive (false);
 RibosomyLighted.SetActive (false); 
 MembranaLighted.SetActive (true); 
 } 
@@ -188,6 +217,9 @@ if ((ButtonsCounter == 3)&&(NeedStart>0)) {
 
 Light.SetActive (true); 
 Plane.SetActive (true); 
+			Paragraph7.SetActive (false);
+			Paragraph8.SetActive (false);
+			Paragraph9.SetActive (false);
 Paragraph6.SetActive (false); 
 Paragraph1.SetActive (false); 
 Paragraph2.SetActive (false); 
@@ -196,6 +228,8 @@ Paragraph5.SetActive (false);
 Paragraph3.SetActive (true); 
 VakuolLighted.SetActive (false); 
 RibosomyLighted.SetActive (false); 
+			GoldzhyLighted.SetActive (false);
+			YadroLighted.SetActive (false);
 MembranaLighted.SetActive (false); 
 MitohondriyaLighted.SetActive(true); 
 } 
@@ -203,6 +237,9 @@ if ((ButtonsCounter == 4)&&(NeedStart>0)) {
 
 Light.SetActive (true); 
 Plane.SetActive (true); 
+			Paragraph7.SetActive (false);
+			Paragraph8.SetActive (false);
+			Paragraph9.SetActive (false);
 Paragraph6.SetActive (false); 
 Paragraph1.SetActive (false); 
 Paragraph2.SetActive (false); 
@@ -210,6 +247,8 @@ Paragraph3.SetActive (false);
 Paragraph5.SetActive (false); 
 Paragraph4.SetActive (true); 
 MembranaLighted.SetActive (false); 
+			GoldzhyLighted.SetActive (false);
+			YadroLighted.SetActive (false);
 RibosomyLighted.SetActive (false); 
 MitohondriyaLighted.SetActive(false); 
 VakuolLighted.SetActive (true); 
@@ -219,6 +258,9 @@ if ((ButtonsCounter == 5)&&(NeedStart>0)) {
 
 Light.SetActive (true); 
 Plane.SetActive (true); 
+			Paragraph7.SetActive (false);
+			Paragraph8.SetActive (false);
+			Paragraph9.SetActive (false);
 Paragraph6.SetActive (false); 
 Paragraph1.SetActive (false); 
 Paragraph2.SetActive (false); 
@@ -227,6 +269,8 @@ Paragraph4.SetActive (false);
 Paragraph5.SetActive (true); 
 MembranaLighted.SetActive (false); 
 RibosomyLighted.SetActive (false); 
+			GoldzhyLighted.SetActive (false);
+			YadroLighted.SetActive (false);
 MitohondriyaLighted.SetActive(false); 
 VakuolLighted.SetActive (true); 
 
@@ -235,6 +279,9 @@ if ((ButtonsCounter == 6)&&(NeedStart>0)) {
 
 Light.SetActive (true); 
 Plane.SetActive (true); 
+			Paragraph7.SetActive (false);
+			Paragraph8.SetActive (false);
+			Paragraph9.SetActive (false);
 Paragraph5.SetActive (false); 
 Paragraph1.SetActive (false); 
 Paragraph2.SetActive (false); 
@@ -243,10 +290,75 @@ Paragraph4.SetActive (false);
 Paragraph6.SetActive (true); 
 MembranaLighted.SetActive (false); 
 MitohondriyaLighted.SetActive(false); 
+			GoldzhyLighted.SetActive (false);
+			YadroLighted.SetActive (false);
 VakuolLighted.SetActive (false); 
 RibosomyLighted.SetActive (true); 
 
 } 
+		if ((ButtonsCounter == 7)&&(NeedStart>0)) { 
+
+			Light.SetActive (true); 
+			Plane.SetActive (true);
+			Paragraph8.SetActive (false);
+			Paragraph9.SetActive (false);
+			Paragraph5.SetActive (false); 
+			Paragraph1.SetActive (false); 
+			Paragraph2.SetActive (false); 
+			Paragraph3.SetActive (false); 
+			Paragraph4.SetActive (false); 
+			Paragraph6.SetActive (false);
+			Paragraph7.SetActive (true); 
+			MembranaLighted.SetActive (false); 
+			MitohondriyaLighted.SetActive(false); 
+			VakuolLighted.SetActive (false); 
+			RibosomyLighted.SetActive (false);
+			YadroLighted.SetActive (false);
+			GoldzhyLighted.SetActive (true);
+
+		}
+		if ((ButtonsCounter == 8)&&(NeedStart>0)) { 
+
+			Light.SetActive (true); 
+			Plane.SetActive (true);
+			Paragraph7.SetActive (false);
+			Paragraph9.SetActive (false);
+			Paragraph5.SetActive (false); 
+			Paragraph1.SetActive (false); 
+			Paragraph2.SetActive (false); 
+			Paragraph3.SetActive (false); 
+			Paragraph4.SetActive (false); 
+			Paragraph6.SetActive (false);
+			Paragraph8.SetActive (true); 
+			MembranaLighted.SetActive (false); 
+			MitohondriyaLighted.SetActive(false); 
+			VakuolLighted.SetActive (false); 
+			RibosomyLighted.SetActive (false);
+			GoldzhyLighted.SetActive (false);
+			YadroLighted.SetActive (true);
+
+		}
+		if ((ButtonsCounter == 9)&&(NeedStart>0)) { 
+
+			Light.SetActive (true); 
+			Plane.SetActive (true);
+			Paragraph7.SetActive (false);
+			Paragraph5.SetActive (false); 
+			Paragraph1.SetActive (false); 
+			Paragraph2.SetActive (false); 
+			Paragraph3.SetActive (false); 
+			Paragraph4.SetActive (false); 
+			Paragraph6.SetActive (false);
+			Paragraph8.SetActive (false);
+			Paragraph9.SetActive (true);
+			MembranaLighted.SetActive (false); 
+			MitohondriyaLighted.SetActive(false); 
+			VakuolLighted.SetActive (false); 
+			RibosomyLighted.SetActive (false);
+			GoldzhyLighted.SetActive (false);
+			YadroLighted.SetActive (false);
+
+		}
 
 
 
@@ -273,11 +385,16 @@ Paragraph4.SetActive (false);
 Paragraph2.SetActive (false); 
 Paragraph3.SetActive (false); 
 Paragraph6.SetActive (false); 
-Paragraph5.SetActive (false); 
+Paragraph5.SetActive (false);
+			Paragraph8.SetActive (false);
+			Paragraph7.SetActive (false);
+			Paragraph9.SetActive (false);
 Paragraph1.SetActive (true); 
 MitohondriyaLighted.SetActive(false); 
 MembranaLighted.SetActive (false); 
 VakuolLighted.SetActive (false); 
+			GoldzhyLighted.SetActive (false);
+			YadroLighted.SetActive (false);
 RibosomyLighted.SetActive (false); 
 } 
 if ((ButtonsCounter == 2)&&(NeedStart>0)) { 
@@ -287,11 +404,16 @@ Plane.SetActive (true);
 Paragraph4.SetActive (false); 
 Paragraph1.SetActive (false); 
 Paragraph3.SetActive (false); 
+			Paragraph7.SetActive (false);
+			Paragraph8.SetActive (false);
+			Paragraph9.SetActive (false);
 Paragraph6.SetActive (false); 
 Paragraph5.SetActive (false); 
 Paragraph2.SetActive (true); 
 VakuolLighted.SetActive (false); 
 RibosomyLighted.SetActive (false); 
+			GoldzhyLighted.SetActive (false);
+			YadroLighted.SetActive (false);
 MitohondriyaLighted.SetActive(false); 
 MembranaLighted.SetActive (true); 
 } 
@@ -302,11 +424,16 @@ Plane.SetActive (true);
 Paragraph1.SetActive (false); 
 Paragraph4.SetActive (false); 
 Paragraph6.SetActive (false); 
+			Paragraph7.SetActive (false);
+			Paragraph8.SetActive (false);
+			Paragraph9.SetActive (false);
 Paragraph2.SetActive (false); 
 Paragraph5.SetActive (false); 
 Paragraph3.SetActive (true); 
 VakuolLighted.SetActive (false); 
 MembranaLighted.SetActive (false); 
+			GoldzhyLighted.SetActive (false);
+			YadroLighted.SetActive (false);
 RibosomyLighted.SetActive (false); 
 MitohondriyaLighted.SetActive(true); 
 } 
@@ -316,12 +443,17 @@ Light.SetActive (true);
 Plane.SetActive (true); 
 Paragraph1.SetActive (false); 
 Paragraph2.SetActive (false); 
+			Paragraph7.SetActive (false);
+			Paragraph8.SetActive (false);
+			Paragraph9.SetActive (false);
 Paragraph3.SetActive (false); 
 Paragraph6.SetActive (false); 
 Paragraph5.SetActive (false); 
 Paragraph4.SetActive (true); 
 MembranaLighted.SetActive (false); 
 MitohondriyaLighted.SetActive(false); 
+			GoldzhyLighted.SetActive (false);
+			YadroLighted.SetActive (false);
 RibosomyLighted.SetActive (false); 
 VakuolLighted.SetActive (true); 
 
@@ -333,11 +465,16 @@ Plane.SetActive (true);
 Paragraph1.SetActive (false); 
 Paragraph2.SetActive (false); 
 Paragraph3.SetActive (false); 
+			Paragraph7.SetActive (false);
+			Paragraph8.SetActive (false);
+			Paragraph9.SetActive (false);
 Paragraph4.SetActive (false); 
 Paragraph6.SetActive (false); 
 Paragraph5.SetActive (true); 
 MembranaLighted.SetActive (false); 
 MitohondriyaLighted.SetActive(false); 
+			GoldzhyLighted.SetActive (false);
+			YadroLighted.SetActive (false);
 RibosomyLighted.SetActive (false); 
 VakuolLighted.SetActive (true); 
 
@@ -348,17 +485,85 @@ Light.SetActive (true);
 Plane.SetActive (true); 
 Paragraph5.SetActive (false); 
 Paragraph1.SetActive (false); 
+			Paragraph7.SetActive (false);
+			Paragraph8.SetActive (false);
+			Paragraph9.SetActive (false);
 Paragraph2.SetActive (false); 
 Paragraph3.SetActive (false); 
 Paragraph4.SetActive (false); 
 Paragraph6.SetActive (true); 
 MembranaLighted.SetActive (false); 
 MitohondriyaLighted.SetActive(false); 
+			GoldzhyLighted.SetActive (false);
+			YadroLighted.SetActive (false);
 VakuolLighted.SetActive (false); 
 RibosomyLighted.SetActive (true); 
 
 }
+		if ((ButtonsCounter == 7)&&(NeedStart>0)) { 
 
+			Light.SetActive (true); 
+			Plane.SetActive (true);
+			Paragraph8.SetActive (false);
+			Paragraph7.SetActive (false); 
+			Paragraph5.SetActive (false); 
+			Paragraph1.SetActive (false);
+			Paragraph9.SetActive (false);
+			Paragraph2.SetActive (false); 
+			Paragraph3.SetActive (false); 
+			Paragraph4.SetActive (false); 
+			Paragraph6.SetActive (false);
+			Paragraph7.SetActive (true); 
+			MembranaLighted.SetActive (false); 
+			MitohondriyaLighted.SetActive(false); 
+			VakuolLighted.SetActive (false); 
+			RibosomyLighted.SetActive (false);
+			YadroLighted.SetActive (false);
+			GoldzhyLighted.SetActive (true);
+
+		} 
+		if ((ButtonsCounter == 8)&&(NeedStart>0)) { 
+
+			Light.SetActive (true); 
+			Plane.SetActive (true);
+			Paragraph7.SetActive (false); 
+			Paragraph5.SetActive (false); 
+			Paragraph9.SetActive (false);
+			Paragraph1.SetActive (false); 
+			Paragraph2.SetActive (false); 
+			Paragraph3.SetActive (false); 
+			Paragraph4.SetActive (false); 
+			Paragraph6.SetActive (false);
+			Paragraph8.SetActive (true); 
+			MembranaLighted.SetActive (false); 
+			MitohondriyaLighted.SetActive(false); 
+			VakuolLighted.SetActive (false); 
+			RibosomyLighted.SetActive (false);
+			GoldzhyLighted.SetActive (false);
+			YadroLighted.SetActive (true);
+
+		}
+		if ((ButtonsCounter == 9)&&(NeedStart>0)) { 
+
+			Light.SetActive (true); 
+			Plane.SetActive (true);
+			Paragraph7.SetActive (false);
+			Paragraph5.SetActive (false); 
+			Paragraph1.SetActive (false); 
+			Paragraph2.SetActive (false); 
+			Paragraph3.SetActive (false); 
+			Paragraph4.SetActive (false); 
+			Paragraph6.SetActive (false);
+			Paragraph8.SetActive (false);
+			Paragraph9.SetActive (true);
+			MembranaLighted.SetActive (false); 
+			MitohondriyaLighted.SetActive(false); 
+			VakuolLighted.SetActive (false); 
+			RibosomyLighted.SetActive (false);
+			GoldzhyLighted.SetActive (false);
+			YadroLighted.SetActive (false);
+
+		}
 
 
 
