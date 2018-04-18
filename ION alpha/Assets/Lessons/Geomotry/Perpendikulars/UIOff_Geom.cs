@@ -121,6 +121,9 @@ public class UIOff_Geom : MonoBehaviour {
 		if (Paragraph4.activeInHierarchy == true) { 
 			PausedParag = Paragraph4; 
 		} 
+		if (Paragraph5.activeInHierarchy == true) {
+			PausedParag = Paragraph5;
+		}
 		/*if (Paragraph5.activeInHierarchy == true) { 
 			PausedParag = Paragraph5; 
 		} 
