@@ -1,7 +1,7 @@
 Android
 SceneListBegin?
 Assets/111.unity
-Assets/Lessons/Geomotry/Geometry.unity
+Assets/Lessons/Geomotry/Perpendikulars/Geometry.unity
 Assets/Lessons/Phys/Kavendish_Phys.unity
 Assets/Lessons/Biology/Kletka/Kletka.unity
 SceneListEnd?
@@ -289,6 +289,7 @@ e3213bdb2a873b4757c6b7fa21387cf9 Assembly-CSharp.dll:.ObjectRecoTrackableEventHa
 75f17fb9bd4464dd934541ea4a00eaf3 Assembly-CSharp.dll:Lean.Touch.LeanTranslate
 5652388a27686e3b4c5bbff6e0e7c256 Assembly-CSharp.dll:Lean.Touch.LeanFingerUp
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.VuMarkTrackableEventHandler
+1a5450b19d2e6bafd6053ab414e03a37 Assembly-CSharp.dll:.UIOff_Geom
 d49c4dceabcd0f316458072a477aeae8 Assembly-CSharp.dll:Lean.Touch.LeanSpawn
 26215f135eeb48d8fa1189498c107f6c Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 0561521e336e270e6e5a9c61387cb838 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour

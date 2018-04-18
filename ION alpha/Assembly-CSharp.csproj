@@ -93,6 +93,7 @@
      <Compile Include="Assets\ImportedAssets\LeanTouch\Scripts\LeanSnapshot.cs" />
      <Compile Include="Assets\ImportedAssets\LeanTouch\Scripts\LeanTouch.cs" />
      <Compile Include="Assets\Lessons\Biology\Kletka\UIOff_B_Kletka.cs" />
+     <Compile Include="Assets\Lessons\Geomotry\Perpendikulars\UIOff_Geom.cs" />
      <Compile Include="Assets\PredmetManager.cs" />
      <Compile Include="Assets\SwipeManager.cs" />
      <Compile Include="Assets\UIOff.cs" />
@@ -151,6 +152,7 @@
      <None Include="Assets\Vuforia\SamplesResources\SceneAssets\CloudReco\Shaders\CR_Custom_TransparentUnlit.shader" />
      <None Include="Assets\Vuforia\Common\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\Resources\Inline.shader" />
      <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />
      <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassInc.cginc" />
      <None Include="Assets\ImportedAssets\EarthRendering Free\Earth.shader" />
