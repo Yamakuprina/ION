@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/111.unity
     guid: 2170d43c71ac1004784f340b6a727d94
   - enabled: 1
-    path: Assets/Lessons/Geomotry/Geometry.unity
+    path: Assets/Lessons/Geomotry/Perpendikulars/Geometry.unity
     guid: e7ea36d0ed509d94ba5d316ad598f910
   - enabled: 0
     path: Assets/Lessons/Fizra/FizraVideo.unity

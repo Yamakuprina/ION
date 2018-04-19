@@ -12,6 +12,8 @@ public class PredmetManager : MonoBehaviour {
 	public GameObject GeomImage;
 	public GameObject PhysPlane;
 	public GameObject PhysImage;
+	public GameObject BioPlane;
+	public GameObject BioImage;
 
 
 	IEnumerator WaittGeom(){
@@ -55,6 +57,10 @@ public class PredmetManager : MonoBehaviour {
 
 	}
 	public void BiologyPressed(){
+		GeomImage.SetActive (false);
+		GeomPlane.SetActive (false);
+		BioPlane.SetActive (true);
+		BioImage.SetActive (true);
 		GeomAnim.SetBool ("Stop", true);
 		BioAnim.SetBool ("Start", true);
 		StartCoroutine (WaittBiology ());

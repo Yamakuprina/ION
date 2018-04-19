@@ -212,7 +212,7 @@ b67a2fbff7b780651ff66b0ce709a90e Assembly-CSharp.dll:.CamFollowDesk
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScanLine
 e1f1285d86f3a1745afc7444b310fb42 Assembly-CSharp.dll:Lean.Touch.LeanPitchYaw
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Lean.Touch.LeanOpenUrl
-e3ccf623b6750d087c06ebe71b3b310b Assembly-CSharp.dll:.PredmetManager
+c69f2579df0e27d48e3677f2436c1108 Assembly-CSharp.dll:.PredmetManager
 5783b5cb6e6d5bcc7df8ef9e6d5aada9 Assembly-CSharp.dll:Lean.Touch.LeanRotate
 af81a921b7f8543a1aaa2a5cb365859a Assembly-CSharp.dll:.DrillController
 6d3d167dfc900f1bc58353f0a12020e5 Assembly-CSharp.dll:.CloudRecoEventHandler
