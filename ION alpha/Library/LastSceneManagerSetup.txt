@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Lessons/Geomotry/Perpendikulars/Geometry.unity
+- path: Assets/111.unity
   isLoaded: 1
   isActive: 1
