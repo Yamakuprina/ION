@@ -94,6 +94,7 @@
      <Compile Include="Assets\ImportedAssets\LeanTouch\Scripts\LeanTouch.cs" />
      <Compile Include="Assets\Lessons\Biology\Kletka\UIOff_B_Kletka.cs" />
      <Compile Include="Assets\Lessons\Geomotry\Perpendikulars\UIOff_Geom.cs" />
+     <Compile Include="Assets\Lessons\Phys\UI_Off_Kavendish.cs" />
      <Compile Include="Assets\PredmetManager.cs" />
      <Compile Include="Assets\SwipeManager.cs" />
      <Compile Include="Assets\UIOff.cs" />
