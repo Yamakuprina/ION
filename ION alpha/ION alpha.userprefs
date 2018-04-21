@@ -1,13 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Lessons\Phys\UI_Off_Kavendish.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Lessons\Phys\Kavendish\UI_Off_Kavendish.cs">
     <Files>
-      <File FileName="Assets\UIOff.cs" Line="21" Column="2" />
+      <File FileName="Assets\UIOff.cs" Line="1" Column="1" />
       <File FileName="Assets\Lessons\Biology\Kletka\UIOff_B_Kletka.cs" Line="1" Column="1" />
       <File FileName="Assets\CamFollowDesk.cs" Line="1" Column="1" />
-      <File FileName="Assets\Lessons\Geomotry\Perpendikulars\UIOff_Geom.cs" Line="616" Column="1" />
+      <File FileName="Assets\Lessons\Geomotry\Perpendikulars\UIOff_Geom.cs" Line="1" Column="1" />
       <File FileName="Assets\PredmetManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Lessons\Phys\UI_Off_Kavendish.cs" Line="615" Column="36" />
+      <File FileName="Assets\Lessons\Phys\Kavendish\UI_Off_Kavendish.cs" Line="643" Column="60" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

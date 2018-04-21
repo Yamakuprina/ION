@@ -2,7 +2,7 @@ Android
 SceneListBegin?
 Assets/111.unity
 Assets/Lessons/Geomotry/Perpendikulars/Geometry.unity
-Assets/Lessons/Phys/Kavendish_Phys.unity
+Assets/Lessons/Phys/Kavendish/Phys 2.unity
 Assets/Lessons/Biology/Kletka/Kletka.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SamplesNavigationHandler
@@ -286,6 +286,7 @@ e151305212b6d9dd07d68e464b461420 Assembly-CSharp.dll:Lean.Touch.LeanFingerTap
 685d4c83b4896c997314336557dd18df Assembly-CSharp.dll:Lean.Touch.LeanFingerTrail
 493c211ab85ec2db8c090d3ba6c0a013 Assembly-CSharp.dll:Lean.Touch.LeanSelectableGraphicColor
 e3213bdb2a873b4757c6b7fa21387cf9 Assembly-CSharp.dll:.ObjectRecoTrackableEventHandler
+f1942eb62392bf7ff16abf09539079f0 Assembly-CSharp.dll:.UI_Off_Kavendish
 75f17fb9bd4464dd934541ea4a00eaf3 Assembly-CSharp.dll:Lean.Touch.LeanTranslate
 5652388a27686e3b4c5bbff6e0e7c256 Assembly-CSharp.dll:Lean.Touch.LeanFingerUp
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.VuMarkTrackableEventHandler
