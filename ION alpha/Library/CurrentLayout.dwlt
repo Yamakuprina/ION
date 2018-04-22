@@ -228,8 +228,8 @@ MonoBehaviour:
     y: 0
     width: 305
     height: 365
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -397,7 +397,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: a690fbffa091fbff7895fbff8295fbffc297fbffd297fbff1af4ffff9efbffff000000001e490000da490000
+    m_ExpandedIDs: 3a83ffff2684fffffe87ffff6e89ffff8889ffff9889ffff38a2ffff0caaffff9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -416,7 +416,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
-  - Phys 2
+  - Geometry
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -453,9 +453,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -13.749128, y: 7.102933, z: -1.2064673}
+    m_Target: {x: -13.835156, y: 7.412493, z: -0.5275071}
     speed: 2
-    m_Value: {x: -13.749128, y: 7.102933, z: -1.2064673}
+    m_Value: {x: -13.835156, y: 7.412493, z: -0.5275071}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -479,9 +479,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.00082778424, y: -0.97444445, z: 0.2245984, w: -0.003595679}
+    m_Target: {x: -0.0086651025, y: 0.98983896, z: -0.12390841, w: -0.069213435}
     speed: 2
-    m_Value: {x: -0.00082778424, y: -0.97444445, z: 0.2245984, w: -0.003595679}
+    m_Value: {x: -0.0086651025, y: 0.98983896, z: -0.12390841, w: -0.069213435}
   m_Size:
     m_Target: 1.6188197
     speed: 2
@@ -776,19 +776,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Lessons/Geomotry/Perpendikulars
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Lessons/Geomotry/Perpendikulars
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\admin\Documents\GitHub\ION\ION alpha
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 102a0000
-    m_LastClickedID: 10768
-    m_ExpandedIDs: 00000000102a00009c2c0000ec2c00007c2d0000d02d0000002e00001a2e0000282e00005c32000028360000c23600001e370000e6370000583800006a390000023a00008a3e0000b63e00002c4000009c4200005e430000a0430000024400000c44000010440000424700004447000046470000484700004a4700004c47000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 439}
+    m_SelectedIDs: bc2d0000
+    m_LastClickedID: 11708
+    m_ExpandedIDs: 00000000102a00009c2c0000ec2c00007c2d0000d02d0000002e00001a2e0000282e00005c32000026360000c03600001c370000e43700005638000068390000003a0000883e0000b43e00002a4000009a4200005c4300009e430000004400000a4400000e440000c44a0000c64a0000c84a0000ca4a0000cc4a0000ce4a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -816,7 +816,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000102a00009c2c0000ec2c00007c2d0000d02d0000002e00001a2e0000282e00005c32000028360000c23600001e370000e6370000583800006a390000023a00008a3e0000b63e00002c4000009c4200005e430000a0430000024400000c44000010440000424700004447000046470000484700004a4700004c470000
+    m_ExpandedIDs: 00000000102a00009c2c0000ec2c00007c2d0000d02d0000002e00001a2e0000282e00005c32000026360000c03600001c370000e43700005638000068390000003a0000883e0000b43e00002a4000009a4200005c4300009e430000004400000a4400000e440000c44a0000c64a0000c84a0000ca4a0000cc4a0000ce4a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -847,18 +847,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300009841000094410000222d00000000000074380000b4370000343f0000fe2f000052a9fcff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Kavendish
+      m_OriginalName: Kavendish
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 14388
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:

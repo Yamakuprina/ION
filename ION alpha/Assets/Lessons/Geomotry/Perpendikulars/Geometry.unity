@@ -3707,7 +3707,7 @@ MonoBehaviour:
   Camera: {fileID: 422657780}
   Search: 0
   CurrentSelectables: []
-  Reselect: 2
+  Reselect: 0
   AutoDeselect: 1
   DeselectOnUp: 0
   MaxSelectables: 1

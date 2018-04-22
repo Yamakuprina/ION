@@ -72,22 +72,12 @@ public class UI_Off_Kavendish : MonoBehaviour {
 		if (NeedStart == 0) { 
 			NeedStart++; 
 		} 
-
-
-		if (ButtonsCounter == 4) { 
+		if ((ButtonsCounter == 4)&(NeedStart == 1)) { 
 			FirstLighted.transform.localScale = new Vector3 (1, 1, 1);
-			//FailedPerp1.SetActive (false);
 		} 
-		if (ButtonsCounter == 5) { 
+		if ((ButtonsCounter == 5)&(NeedStart == 1)) { 
 			SecondLighted.transform.localScale = new Vector3 (1, 1, 1); 
-			//FailedPerp2.SetActive (false);
 		} 
-
-		/*if (ButtonsCounter == 8) { 
-			YadroLighted.SetActive (true); 
-		}*/
-
-
 		Light.SetActive (true); 
 		Plane.SetActive (true); 
 		PausedParag.SetActive (true); 
@@ -586,23 +576,24 @@ Paragraph6.SetActive (false);
 
 	}
 	public void  Kavendish(){
-		FirstLighted.SetActive (true);
-		FirstLighted.transform.localScale = new Vector3 (0, 0, 0);
-		FirstLightedAnim.SetBool ("StopAn", false);
-		FirstLightedAnim.SetBool ("StartAn", true);
+			FirstLighted.SetActive (true);
+			FirstLighted.transform.localScale = new Vector3 (0, 0, 0);
+			FirstLightedAnim.SetBool ("StopAn", false);
+			FirstLightedAnim.SetBool ("StartAn", true);
 
-		SecondLighted.SetActive (true);
-		SecondLighted.transform.localScale = new Vector3 (0, 0, 0);
-		SecondLightedAnim.SetBool ("StopAn", false);
-		SecondLightedAnim.SetBool ("StartAn", true);
+			SecondLighted.SetActive (true);
+			SecondLighted.transform.localScale = new Vector3 (0, 0, 0);
+			SecondLightedAnim.SetBool ("StopAn", false);
+			SecondLightedAnim.SetBool ("StartAn", true);
 
-		SelectModel.SetActive (true);
-		SelectModel.transform.localScale = new Vector3 (0, 0, 0);
-		SelectModelAnim.SetBool ("StopAn", false);
-		SelectModelAnim.SetBool ("StartAn", true);
+			SelectModel.SetActive (true);
+			SelectModel.transform.localScale = new Vector3 (0, 0, 0);
+			SelectModelAnim.SetBool ("StopAn", false);
+			SelectModelAnim.SetBool ("StartAn", true);
 
-		Kavend.SetBool ("StopAn", false);
-		Kavend.SetBool ("StartAn", true);
+			Kavend.SetBool ("StopAn", false);
+			Kavend.SetBool ("StartAn", true);
+		
 	}
 	public void  KavendishSTOP(){
 		FirstLighted.SetActive (true);

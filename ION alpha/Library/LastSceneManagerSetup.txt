@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Lessons/Phys/Kavendish/Phys 2.unity
+- path: Assets/Lessons/Geomotry/Perpendikulars/Geometry.unity
   isLoaded: 1
   isActive: 1
