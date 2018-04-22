@@ -21,6 +21,9 @@ public class UIOff_Geom : MonoBehaviour {
 	//public GameObject Paragraph8;
 	//public GameObject Paragraph9;
 
+	public GameObject SelectModel;
+	public GameObject SelectDesk;
+
 	public GameObject Plane; 
 
 	public GameObject FirstLighted; 
@@ -207,7 +210,7 @@ public class UIOff_Geom : MonoBehaviour {
 
 
 
-
+		SelectModel.SetActive (false);
 		if ((ButtonsCounter == 2)&&(NeedStart>0)) { 
 
 Light.SetActive (true); 
@@ -403,7 +406,7 @@ ThirdLighted.SetActive (false);
 			ButtonsCounter++; 
 		} 
 
-
+		SelectModel.SetActive (false);
 		if ((ButtonsCounter == 1)&&(NeedStart>0)) { 
 
 Light.SetActive (true); 
@@ -609,6 +612,18 @@ ThirdLighted.SetActive (false);
 
 
 	} 
+	public void SelectedDesk(){
+		SelectDesk.SetActive (true);
+	}
+	public void SelectedDeskStop(){
+		SelectDesk.SetActive (false);
+	}
+	public void SelectedModel(){
+		SelectModel.SetActive (true);
+	}
+	public void SelectedModelStop(){
+		SelectModel.SetActive (false);
+	}
 
 
 

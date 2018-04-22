@@ -21,7 +21,10 @@ public class UIOff_B_Kletka : MonoBehaviour {
 	public GameObject Paragraph8;
 	public GameObject Paragraph9;
 
-	public GameObject Plane; 
+	public GameObject Plane;
+
+	public GameObject SelectModel;
+	public GameObject SelectDesk;
 
 	public GameObject MembranaLighted; 
 	public GameObject MitohondriyaLighted; 
@@ -190,7 +193,7 @@ public class UIOff_B_Kletka : MonoBehaviour {
 		}//Verhnya granica ButtonsCounter'a 
 
 
-
+		SelectModel.SetActive (false);
 
 
 		if ((ButtonsCounter == 2)&&(NeedStart>0)) { 
@@ -376,7 +379,7 @@ RibosomyLighted.SetActive (true);
 			ButtonsCounter++; 
 		} 
 
-
+		SelectModel.SetActive (false);
 		if ((ButtonsCounter == 1)&&(NeedStart>0)) { 
 
 Light.SetActive (true); 
@@ -570,6 +573,20 @@ RibosomyLighted.SetActive (true);
 
 
 	} 
+	public void SelectedDesk(){
+		SelectDesk.SetActive (true);
+	}
+	public void SelectedDeskStop(){
+		SelectDesk.SetActive (false);
+	}
+	public void SelectedModel(){
+		SelectModel.SetActive (true);
+	}
+	public void SelectedModelStop(){
+		SelectModel.SetActive (false);
+	}
+
+
 
 
 
