@@ -14,9 +14,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Lessons/Fizra/FizraVideo.unity
     guid: efb4b9453b33f0d4895e814cc34582cf
-  - enabled: 0
-    path: Assets/Lessons/Phys/Kavendish_Phys.unity
-    guid: 10e3f585157e6c04ab765c32d1249cf3
   - enabled: 1
     path: Assets/Lessons/Phys/Kavendish/Phys 2.unity
     guid: 4bc865388329cf747abc855bdbe9a020

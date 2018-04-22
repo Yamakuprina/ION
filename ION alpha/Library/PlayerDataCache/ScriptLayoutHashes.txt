@@ -275,7 +275,7 @@ c5dd14ab405cc404da9929ce88d6b7f4 Assembly-CSharp.dll:.ModelSwap
 048a71e715f6f97561c15fe2ea6530d2 Assembly-CSharp.dll:.SamplesMainMenu
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 10f494e1ff72e862df6c993f5924c261 Assembly-CSharp.dll:.PanelShowHide
-84bc7495a2efff3d64b9fce5549ec148 Assembly-CSharp.dll:.UIOff_B_Kletka
+00fe31cb7f8e3620b86b78d1d8da4290 Assembly-CSharp.dll:.UIOff_B_Kletka
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Habitat
 685435272821bcb4d44916f2887124fa Assembly-CSharp.dll:.VideoController
 c23567de7068d554c905c20656a91b08 Assembly-CSharp.dll:Lean.Touch.LeanCameraMoveSmooth
@@ -286,11 +286,11 @@ e151305212b6d9dd07d68e464b461420 Assembly-CSharp.dll:Lean.Touch.LeanFingerTap
 685d4c83b4896c997314336557dd18df Assembly-CSharp.dll:Lean.Touch.LeanFingerTrail
 493c211ab85ec2db8c090d3ba6c0a013 Assembly-CSharp.dll:Lean.Touch.LeanSelectableGraphicColor
 e3213bdb2a873b4757c6b7fa21387cf9 Assembly-CSharp.dll:.ObjectRecoTrackableEventHandler
-f1942eb62392bf7ff16abf09539079f0 Assembly-CSharp.dll:.UI_Off_Kavendish
+fa35487ea9ebde1707edb7e013613ba3 Assembly-CSharp.dll:.UI_Off_Kavendish
 75f17fb9bd4464dd934541ea4a00eaf3 Assembly-CSharp.dll:Lean.Touch.LeanTranslate
 5652388a27686e3b4c5bbff6e0e7c256 Assembly-CSharp.dll:Lean.Touch.LeanFingerUp
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.VuMarkTrackableEventHandler
-1a5450b19d2e6bafd6053ab414e03a37 Assembly-CSharp.dll:.UIOff_Geom
+7cd6a1d2411de2543cfb00aadb735e1f Assembly-CSharp.dll:.UIOff_Geom
 d49c4dceabcd0f316458072a477aeae8 Assembly-CSharp.dll:Lean.Touch.LeanSpawn
 26215f135eeb48d8fa1189498c107f6c Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 0561521e336e270e6e5a9c61387cb838 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
