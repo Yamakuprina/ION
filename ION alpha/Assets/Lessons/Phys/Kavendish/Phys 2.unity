@@ -3939,7 +3939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: febcaaf58d0ccae45964da3c0e939b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smoothing: 14
+  smoothing: 10
   smoothingRot: 4
   targets:
   - {fileID: 0}
@@ -5843,7 +5843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cdaa7557fbdf464f9aed73a2c6ef6fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smoothing: 25
+  smoothing: 10
   smoothingRot: 4
   targets:
   - {fileID: 0}
