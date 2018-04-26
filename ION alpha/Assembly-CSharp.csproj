@@ -180,6 +180,7 @@
      <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardBaseSetup.cginc" />
      <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaSetup.cginc" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\Resources\Animals\Straus\readme.txt" />
      <None Include="Assets\Vuforia\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
      <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitSetup.cginc" />
