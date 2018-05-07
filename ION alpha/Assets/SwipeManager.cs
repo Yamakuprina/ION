@@ -14,7 +14,6 @@ public class SwipeManager : MonoBehaviour {
 
 	public GameObject SideBar;
 	private Animator Anim;
-	public GameObject Panel;
 
 
 	public SwipeDirection Direction{ set; get;}
@@ -40,12 +39,10 @@ public class SwipeManager : MonoBehaviour {
 				if (Direction == SwipeDirection.Right) {
 					Anim.SetBool ("SideOn", true);
 					Anim.SetBool ("SideOff", false);
-					Panel.SetActive (true);
 
 				} else if (Direction == SwipeDirection.Left) {
 					Anim.SetBool ("SideOff", true);
 					Anim.SetBool ("SideOn", false);
-					Panel.SetActive (false);
 				}
 		
 			}
