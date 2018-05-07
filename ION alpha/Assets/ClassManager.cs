@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 
 public class ClassManager : MonoBehaviour {
@@ -15,21 +16,15 @@ public class ClassManager : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void OnMouseDown(){
-		Animm.SetBool ("StartAnim", true);
+		StartCoroutine (Waitt ());
 	}
-	void OnMouseUp(){
-		Classes.SetActive (false);
-		Predmets.SetActive (true);
-	}
+
 	IEnumerator Waitt(){
 		yield return new WaitForSeconds (0.7f);
 		Classes.SetActive (false);
 		Predmets.SetActive (true);
 	}
 
-	public void ClassPerehod(){
-		Animm.SetBool ("StartAnim", true);
-		StartCoroutine (Waitt ());
-
-	}
 }
+
+
