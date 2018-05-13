@@ -148,7 +148,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: SideBaroutScreen
-  m_Speed: 1
+  m_Speed: -1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101136457933710992}
@@ -161,7 +161,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: b325384489b445d458bded9ca327b667, type: 2}
+  m_Motion: {fileID: 7400000, guid: b486a96cef97fb742b80aaf5954346c7, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

@@ -2,20 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-
+using UnityEngine.SceneManagement;
 
 public class ClassManager : MonoBehaviour {
 
-	public Animator Animm;
-	public GameObject ClassCurrent;
+
 	public GameObject Classes;
 	public GameObject Predmets;
-	// Use this for initialization
-	void Start () {
-		Animm = ClassCurrent.GetComponent<Animator> ();
+
+	void Start(){
+		Classes.SetActive (true);
+		Predmets.SetActive (false);
 	}
+
 	// Update is called once per frame
-	void OnMouseDown(){
+	public void ClassesToSubjects(){
 		StartCoroutine (Waitt ());
 	}
 
@@ -24,6 +25,41 @@ public class ClassManager : MonoBehaviour {
 		Classes.SetActive (false);
 		Predmets.SetActive (true);
 	}
+
+
+	IEnumerator WaittGeom(){
+		yield return new WaitForSeconds (1.5f);
+		SceneManager.LoadScene (1);
+
+	}
+	IEnumerator WaittPhys(){
+		yield return new WaitForSeconds (1.5f);
+		SceneManager.LoadScene (2);
+	}
+
+	IEnumerator WaittBiology(){
+		yield return new WaitForSeconds (1.5f);
+		SceneManager.LoadScene (3);
+	}
+
+	public void GeomPressed(){
+		StartCoroutine (WaittGeom ());
+
+	}
+
+	public void PhysPressed(){
+		StartCoroutine (WaittPhys ());
+
+	}
+	public void BiologyPressed(){
+		StartCoroutine (WaittBiology ());
+
+	}
+
+
+
+
+
 
 }
 

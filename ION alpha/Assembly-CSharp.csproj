@@ -95,7 +95,6 @@
      <Compile Include="Assets\Lessons\Biology\Kletka\UIOff_B_Kletka.cs" />
      <Compile Include="Assets\Lessons\Geomotry\Perpendikulars\UIOff_Geom.cs" />
      <Compile Include="Assets\Lessons\Phys\Kavendish\UI_Off_Kavendish.cs" />
-     <Compile Include="Assets\PredmetManager.cs" />
      <Compile Include="Assets\SwipeManager.cs" />
      <Compile Include="Assets\UIOff.cs" />
      <Compile Include="Assets\Vuforia\Common\CameraSettings.cs" />

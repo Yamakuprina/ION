@@ -40,9 +40,12 @@ public class SwipeManager : MonoBehaviour {
 					Anim.SetBool ("SideOn", true);
 					Anim.SetBool ("SideOff", false);
 
+
+
 				} else if (Direction == SwipeDirection.Left) {
 					Anim.SetBool ("SideOff", true);
 					Anim.SetBool ("SideOn", false);
+
 				}
 		
 			}
