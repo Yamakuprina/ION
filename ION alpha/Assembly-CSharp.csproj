@@ -54,8 +54,6 @@
      <Compile Include="Assets\CamFollow.cs" />
      <Compile Include="Assets\CamFollowDesk.cs" />
      <Compile Include="Assets\ClassManager.cs" />
-     <Compile Include="Assets\ImportedAssets\_MK\MKGlassFree\MKGlassFreeMaterialHelper.cs" />
-     <Compile Include="Assets\ImportedAssets\EarthRendering Free\CameraCtrl.cs" />
      <Compile Include="Assets\ImportedAssets\LeanTouch\Examples\Scripts\LeanAddForce.cs" />
      <Compile Include="Assets\ImportedAssets\LeanTouch\Examples\Scripts\LeanCameraMove.cs" />
      <Compile Include="Assets\ImportedAssets\LeanTouch\Examples\Scripts\LeanCameraMoveSmooth.cs" />
@@ -153,38 +151,18 @@
      <None Include="Assets\Vuforia\Common\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Resources\Inline.shader" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassInc.cginc" />
-     <None Include="Assets\ImportedAssets\EarthRendering Free\Earth.shader" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaIO.cginc" />
      <None Include="Assets\Resources\Outline.shader" />
      <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
      <None Include="Assets\ImportedAssets\LeanTouch\Examples\Shaders\Skybox.shader" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurface.cginc" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMeta.cginc" />
      <None Include="Assets\ImportedAssets\LeanTouch\Examples\Shaders\Smooth.shader" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassLight.cginc" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForward.cginc" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitIO.cginc" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardIO.cginc" />
-     <None Include="Assets\ImportedAssets\EarthRendering Free\Atmosphere.shader" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassDef.cginc" />
      <None Include="Assets\Vuforia\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassV.cginc" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\MKGlassFree.shader" />
      <None Include="Assets\Vuforia\Common\license_3rdpartynotice.txt" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardAddSetup.cginc" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\Vuforia\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardBaseSetup.cginc" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaSetup.cginc" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\Vuforia\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitSetup.cginc" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLit.cginc" />
-     <None Include="Assets\ImportedAssets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurfaceIO.cginc" />
  <Reference Include="Vuforia.UnityExtensions.Editor">
  <HintPath>D:/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>

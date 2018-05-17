@@ -18,7 +18,7 @@ public class SwipeManager : MonoBehaviour {
 
 	public SwipeDirection Direction{ set; get;}
 	private Vector3 touchPosition;
-	private float SwipeResistanceX = 70f;
+	public float SwipeResistanceX;
 
 	private void Start(){
 		instance = this;

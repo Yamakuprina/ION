@@ -133,7 +133,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CloudRecoTrackableEventHandler
-620c3d5afaa71034bfe57e4c6cd234ed Assembly-CSharp.dll:.SwipeManager
+9171944ab6dc7c689ae465a913e45a29 Assembly-CSharp.dll:.SwipeManager
 c87bf2ff4dfffba04379abbbfd243202 Assembly-CSharp.dll:.AsyncSceneLoader
 b67a2fbff7b780651ff66b0ce709a90e Assembly-CSharp.dll:.CamFollow
 26215f135eeb48d8fa1189498c107f6c Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
@@ -230,7 +230,6 @@ e7f268767823a8cd19911699aa31f1ea Assembly-CSharp.dll:Lean.Touch.LeanMultiTapInfo
 91b36326f294b619937373da443e69b6 Assembly-CSharp.dll:Lean.Touch.LeanTouch
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OxygenTank
 724a51b61b7ebd15d4e794fd2c785db0 Assembly-CSharp.dll:.VirtualButtonEventHandler
-297fe15c5bbf9a56a977cc9c23ba00f7 Assembly-CSharp.dll:.CameraCtrl
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SamplesLoadingScreen
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -330,7 +329,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FrameRateSettings
 1599adf36a90c6dd91987c85a00ee885 Assembly-CSharp.dll:Lean.Touch.LeanFingerHeld
 05012a5c4e5496c7da7c6bf88a0eb92a Assembly-CSharp.dll:Lean.Touch.LeanPitchYawSmooth
-9e88cde0a614a8e103dae0ac9ea1886e Assembly-CSharp.dll:.ClassManager
+46de591ca1f68ab288b1e101ae52f947 Assembly-CSharp.dll:.ClassManager
 c7b4e1cefa38e05c60ad69dee88481d8 Assembly-CSharp.dll:Lean.Touch.LeanSelectableRendererColor
 26215f135eeb48d8fa1189498c107f6c Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 0561521e336e270e6e5a9c61387cb838 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour

@@ -11,15 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Lessons/Geomotry/Perpendikulars/Geometry.unity
     guid: e7ea36d0ed509d94ba5d316ad598f910
-  - enabled: 0
-    path: Assets/Lessons/Fizra/FizraVideo.unity
-    guid: efb4b9453b33f0d4895e814cc34582cf
   - enabled: 1
     path: Assets/Lessons/Phys/Kavendish/Phys 2.unity
     guid: 4bc865388329cf747abc855bdbe9a020
-  - enabled: 0
-    path: Assets/Lessons/Astronomy/WellThatAlmostWorksTarget.unity
-    guid: 8f900e2f4d8ed6a41a3d3af7b86798af
   - enabled: 1
     path: Assets/Lessons/Biology/Kletka/Kletka.unity
     guid: 5e85144da1f39394caedee9b3385fb54
