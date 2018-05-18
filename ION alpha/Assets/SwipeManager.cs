@@ -12,6 +12,7 @@ public class SwipeManager : MonoBehaviour {
 	private static SwipeManager instance;
 	private static SwipeManager Instance{get{return instance;}}
 
+	private float opener = 0;
 	public GameObject SideBar;
 	private Animator Anim;
 
@@ -27,9 +28,25 @@ public class SwipeManager : MonoBehaviour {
 		
 	private void Update ()
 	{
+		
 		Direction = SwipeDirection.None;
+
 		if (Input.GetMouseButtonDown (0)) {
 			touchPosition = Input.mousePosition;
+		}
+
+		if (opener == 1) {
+			Anim.SetBool ("SideOn", true);
+			Anim.SetBool ("SideOff", false);
+
+
+
+		} 
+		if (Direction == SwipeDirection.Left) {
+			Anim.SetBool ("SideOff", true);
+			if (opener > 0) {
+				opener--;}
+			Anim.SetBool ("SideOn", false);
 		}
 		if (Input.GetMouseButtonUp (0)) {
 			Vector2 deltaSwipe = touchPosition - Input.mousePosition;
@@ -42,8 +59,12 @@ public class SwipeManager : MonoBehaviour {
 
 
 
-				} else if (Direction == SwipeDirection.Left) {
+				} 
+				if (Direction == SwipeDirection.Left) {
 					Anim.SetBool ("SideOff", true);
+					if (opener > 0) {
+						opener--;
+					}
 					Anim.SetBool ("SideOn", false);
 
 				}
@@ -52,6 +73,11 @@ public class SwipeManager : MonoBehaviour {
 		}
 	}
 
+	public void Opener(){
+		if (opener == 0) {
+			opener++;
+		}
+	}
 
 }
 
