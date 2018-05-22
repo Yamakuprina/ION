@@ -18,7 +18,7 @@ public class ClassManager : MonoBehaviour {
 
 
 	public GameObject IMSURE1;
-	public GameObject IMSURE2;
+	//public GameObject IMSURE2;
 
 	void Start(){
 		Classes.SetActive (true);
@@ -97,16 +97,22 @@ public class ClassManager : MonoBehaviour {
 	public void IMSURE111EXIT(){
 		IMSURE1.SetActive (false);
 	}
-	public void IMSURE222(){
+	/*public void IMSURE222(){
 		IMSURE2.SetActive (true);
 	}
 	public void IMSURE222EXIT(){
 		IMSURE2.SetActive (false);
+	}*/
+
+	public void Launch_Geometry_9_Perpendikulars (){
+		SceneManager.LoadScene (1);
 	}
-
-
-
-
+	public void Launch_Phys_9_ZakonTyagotenya (){
+		SceneManager.LoadScene (2);
+	}
+	public void Launch_Bio_9_RastitelnayaKletka (){
+		SceneManager.LoadScene (3);
+	}
 
 
 }
