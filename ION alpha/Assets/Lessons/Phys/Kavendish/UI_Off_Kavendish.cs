@@ -48,7 +48,6 @@ public class UI_Off_Kavendish : MonoBehaviour {
 	public GameObject PausedParag; 
 
 	void Start (){ 
-
 		UI.SetActive (true); 
 		UILESSON.SetActive (false); 
 		PauseButton.SetActive (false); 
@@ -58,6 +57,8 @@ public class UI_Off_Kavendish : MonoBehaviour {
 		FirstLighted.SetActive (false);
 		SecondLighted.SetActive (false);
 	} 
+
+
 
 	public void STARTFUCKINGLESSON(){ 
 		UI.SetActive (false); 
