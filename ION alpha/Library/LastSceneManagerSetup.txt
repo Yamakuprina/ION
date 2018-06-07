@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Lessons/Phys/Kavendish/Phys 2.unity
+- path: Assets/Lessons/Biology/Kletka 1/Kletka_Test.unity
   isLoaded: 1
   isActive: 1

@@ -14,12 +14,17 @@ public class CamFollow : MonoBehaviour
 
 	void FixedUpdate ()
 	{targets = GameObject.FindGameObjectsWithTag("Need");
-		
-		Vector3 targetCamPos = targets[1].transform.position;
-		transform.position = Vector3.Lerp (transform.position, targetCamPos, smoothing * Time.deltaTime);
+		if (targets[1].activeInHierarchy == true) { 
+
+			Vector3 targetPos = targets[1].transform.position;
+			transform.position = Vector3.Lerp (transform.position, targetPos, smoothing * Time.deltaTime);
 
 
-		Quaternion targetRot = targets[1].transform.rotation;
-		transform.rotation = Quaternion.Slerp (transform.rotation, targetRot, smoothingRot * Time.deltaTime);
+			Quaternion targetRot = targets[1].transform.rotation;
+			transform.rotation = Quaternion.Slerp (transform.rotation, targetRot, smoothingRot * Time.deltaTime);
+
+
+		} 
+
 	}
 }
